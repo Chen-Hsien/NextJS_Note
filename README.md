@@ -52,3 +52,5 @@ async finction Page({ params }) {
 ```
 ### Data fetch in expressjs
 <img width="626" alt="image" src="https://github.com/Chen-Hsien/NextJS_Note/assets/24216536/54a46199-bbac-47e9-9eae-02afc7b35b46">
+
+
