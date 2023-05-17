@@ -53,4 +53,13 @@ async finction Page({ params }) {
 ### Data fetch in expressjs
 <img width="626" alt="image" src="https://github.com/Chen-Hsien/NextJS_Note/assets/24216536/54a46199-bbac-47e9-9eae-02afc7b35b46">
 
+## 小專案
+### 各種import
+* import Link from 'next/link'
+處理頁面之間的跳轉
+* import Image from 'next/image'
+* import { signIn, signOut, useSession } from 'next-auth/client'
+* import GoogleProvider from 'next-auth/providers/google';
+console.cloud.google.com
+
 
