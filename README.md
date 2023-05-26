@@ -21,7 +21,7 @@ Add ```use client``` to modify it as a client side components.
 3. Incremental Static Generation (ISR)
 SSR 在每次請求時動態生成頁面，SSG 在構建時生成靜態 HTML 頁面，而 ISR 則結合了兩者的優點，提供了靜態網站的快速載入速度和一定程度的動態性。   
 ### SSR
-Dynamic server rendering data, each request trigger a rendering
+Dynamic server rendering data, each request trigger a rendering, Ex. Dynamic News feed, Netflix
 ```JS
 async finction Page({ params }) {
   const res = await fetch(
@@ -32,7 +32,7 @@ async finction Page({ params }) {
 ```
 
 ### SSG
-Default JS use Static side generation
+Default JS use Static side generation, EX. Products list, BLog posts...
 ```JS
 async finction Page({ params }) {
   const res = await fetch(
@@ -42,6 +42,7 @@ async finction Page({ params }) {
 ```
 
 ### ISR
+Both SSR + SSG, 
 ```JS
 async finction Page({ params }) {
   const res = await fetch(
