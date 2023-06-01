@@ -82,6 +82,18 @@ const CoffeeStore = () => {
 };
 ```
 
+### next/link
+用於處理傳統Anchor element (<a>).  
+分為兩種類別.  
+1. Non-dynamic/known pages ```<Link to=<route-name> /> ```
+2. Dynamic pages ```<Link to=<route-name/[value] />```
+常用Props ->   
+1. scroll 控制跳轉後要到哪邊
+2. prefetch
+
+### next/image
+幫忙搞定Image Optimization
+
 
 ## 小專案
 ### 各種import
