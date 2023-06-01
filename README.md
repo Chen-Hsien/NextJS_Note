@@ -92,7 +92,7 @@ const CoffeeStore = () => {
 2. prefetch
 
 ### next/image
-幫忙搞定Image Optimization
+幫忙搞定Image Optimization, 可以隨著使用者的動作仔入需要的圖片
 
 
 ## 小專案
