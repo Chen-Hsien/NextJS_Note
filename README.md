@@ -54,6 +54,9 @@ async finction Page({ params }) {
 ### Data fetch in expressjs
 <img width="626" alt="image" src="https://github.com/Chen-Hsien/NextJS_Note/assets/24216536/54a46199-bbac-47e9-9eae-02afc7b35b46">
 
+### next/head
+內建的component, 處理HTML中Head標籤下的內容, 並且可以添加key來避免重複rendering
+
 ## 小專案
 ### 各種import
 * import Link from 'next/link'
