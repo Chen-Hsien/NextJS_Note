@@ -1,6 +1,14 @@
 # NextJS_Note
 Build a Production React Product.  
 ## SEO
+1. Crawling - Find what pages exists
+2. Indexing - Find what on the pages
+3. Ranking - Rank based on users location, language and device
+--
+* Semantics - using correct html props
+* Meta tags - title and description for meta tags
+* Image alt tag - alt tag in image
+
 ## file-based routing system
 藉由檔案目錄來控制Routing   
 ![image](https://github.com/Chen-Hsien/NextJS_Note/assets/24216536/e706921e-03f3-4a46-978e-c94d43d3f90f).  
