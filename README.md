@@ -57,6 +57,32 @@ async finction Page({ params }) {
 ### next/head
 內建的component, 處理HTML中Head標籤下的內容, 並且可以添加key來避免重複rendering
 
+### next/router
+分為三種類型
+1. index route -> 預設的root page route
+2. nested route -> nested files e.g./coffee-store , 若為page/coffee-store/index.js, 則需要在資料夾下新增index.js做為預設page
+3. dynamic routes -> define brackets e.g./coffee-store/[id]
+以及兩種規
+1. Page必須為React component
+2. Component必須設定為 export by default
+
+dynamic routes設定方式, /coffee-store/[id].js   
+```JS
+import { useRouter } from "next/router";
+
+const CoffeeStore = () => {
+  const router = useRouter();
+  console.log(router);
+
+  return (
+    <div>
+      <h1>Coffee Store {router.query.id}</h1>
+    </div>
+  );
+};
+```
+
+
 ## 小專案
 ### 各種import
 * import Link from 'next/link'
