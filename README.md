@@ -59,6 +59,16 @@ async finction Page({ params }) {
 );
 }
 ```
+
+### getServerSideProps & getStaticProps
+* getServerSideProps
+used for server-side rendering and it runs on every request   
+當已知此畫面會頻繁的需要載入新資訊，會在每次rendering return props, redirect or notFound   
+並且Props object is a key-value pair. 且可以轉為JSON.stringfy。 
+* getStaticProps   
+used for pre-rendering and it runs at build time   
+當已知此畫面較少會出現更動，可以在build time就將畫面資料生成   
+並且Props object is a key-value pair. 且可以轉為JSON.stringfy
 ### Data fetch in expressjs
 <img width="626" alt="image" src="https://github.com/Chen-Hsien/NextJS_Note/assets/24216536/54a46199-bbac-47e9-9eae-02afc7b35b46">
 
