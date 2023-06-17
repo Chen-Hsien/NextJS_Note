@@ -123,3 +123,11 @@ const CoffeeStore = () => {
 console.cloud.google.com
 
 
+## WAGMI React Hooks for Ethers.js
+* useAccount - Returns the connected address. Can also give updates on the type of connection type used. (Won't dig to deep, in short it can be used to display the connected address in other parts of your site or used as an argument for a function).
+* useConnect - Can give status if a wallet is connected to the dapp (can have conditional displays). This can also return info on the connector type and the provider being used.
+* useContract - An ethers based way of both writing and reading from the contract
+* useContractRead - Used to read a function of the connected contract and return it to a variable such as totalSupply or totalMinted.
+* useContractWrite - This is how you send calls to the contract, returns many statuses that we will dig into.
+* useNetwork - Returns the value of which chain id you are currently on. Also allows you to easily switch network.
+* useWaitForTransaction - This will watch your specified function and keep track of the transaction. Will give a loading, success, failure notice.
